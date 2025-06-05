@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Tagesschrift&family=Tuffy:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    font-family: "Tagesschrift", system-ui;
+}
+
+html {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: white;
+    color: black;
+}
+
+/**-----------------HEADER--------------------*/
+
+header{
+    background-color: black;
+    background-size: 5;
+}
+
+
+.llamativo h1{
+    text-align: center;
+}
+
+header h1{
+    position: fixed;
+    text-align: center;
+    top: 0;
+    left: 5px;
+    font-size: 18px;
+    color: white;
+}
+
+#navegacion-link {
+    color: white;
+    text-decoration: none;
+}
+
+.navegacion {
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+.navegacion li {
+    display: inline;
+    margin-left: 60px;
+    text-decoration: none;
+}
+
+
+/*!--------------------------MAIN---------------------!*/
+
+.hero{
+    width: 100%;
+    height: 650px;
+    text-align: center;
+    color: white;
+    background-image: url(../Images/logo-empresa.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.destacados1 article img{
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+}
+
+.destacados2 article img{
+    width: 250px;
+    height: 250px;
+}
+.destacados1 article{
+    width: 260px;
+    height: 350px;
+    border: 2px solid black;
+    margin: 20px;
+    text-align: center;
+}
+
+.destacados2 article{
+    width: 260px;
+    height: 350px;
+    border: 2px solid black;
+    margin: 20px;
+    text-align: center;
+}
+
+.destacados1 article h3{
+    margin: 15px;
+}
+
+.destacados1 article a{
+    color: yellow;
+    background-color: black;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.destacados2 h3{
+    margin: 10px;
+}
+
+.destacados2 article a{
+    color: yellow;
+    background-color: black;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.destacados1 h2{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.destacados1 div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.destacados2 div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hero h2{
+    color: white;
+}
+
+
+/*?------------FOOTER------------------*/
+
+
+.separacion{
+    border-top: solid 2px;
+}
+.footer{
+    margin-top: 80px;
+    padding: 20px;
+}
+.textofoter{
+    margin-top: 25px;
+}
