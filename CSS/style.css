@@ -46,8 +46,17 @@ header{
     color: white !important;
 }
 
-.navbar-toggler-icon{
+.navbar-toggler{
+    background-color: rgb(255, 175, 0)
+}
+
+.boton-navbar{
     color: white;
+    border: 3px solid rgb(255, 175, 0);
+}
+
+.boton-navbar:hover{
+    background-color: rgb(255, 175, 0) ;
 }
 
 /*!--------------------------MAIN---------------------!*/
@@ -80,6 +89,30 @@ header{
 .comienzo h5{
     text-align: center;
 }
+
+.mapa{
+    display: flex;
+    justify-content: center;
+}
+
+.servicios-1 h2{
+    margin-top: 30px;
+}
+
+.servicios-1 p{
+    font-size: 22px;
+    text-align: center;
+}
+
+.servicios-1 span{
+    color: black;
+    font-size: 40px;
+}
+
+.formulario{
+    margin: 30px;
+}
+
 
 /*?---------CARDS Y MAS--------------*/
 
@@ -160,15 +193,12 @@ header{
 
 .separacion{
     border-top: solid 2px;
+    width: 100%;
 }
 .footer{
     margin-top: 80px;
-    padding: 20px;
 }
 .textofoter{
     margin-top: 25px;
 }
 
-@media screen and (max-width ){
-
-}
