@@ -16,6 +16,12 @@ html {
     color: black;
 }
 
+.orden{
+    display: grid;
+    min-height: 100dvh;
+    grid-template-rows: auto 1fr auto;
+}
+
 /**-----------------HEADER--------------------*/
 
 
@@ -155,12 +161,15 @@ header{
     text-decoration: none;
 }
 
+
+
 /**--------------CONTENEDOR-------**/
 .grid-contenedor{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-auto-rows: 200px;
     gap: 5px;
+    margin: 30px;
 }
 
 .img-2{
