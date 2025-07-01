@@ -6,48 +6,43 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Tagesschrift&family=Tuffy:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-body {
+body{
     font-family: "Tagesschrift", system-ui;
 }
 
-html {
+html{
     font-family: 'Noto Sans', sans-serif;
     background-color: white;
     color: black;
 }
 
 .orden{
-    display: grid;
-    min-height: 100dvh;
-    grid-template-rows: auto 1fr auto;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: white;
+    color: black;
 }
 
-/**-----------------HEADER--------------------*/
-
-
-
-.llamativo h1{
-    text-align: center;
+.llamativo{
+    h1{
+        text-align: center;
+    }
 }
 
-header h1{
+header{
+    h1{
     position: fixed;
     text-align: center;
     top: 0;
     left: 5px;
     font-size: 18px;
     color: white;
-}
-
-/*?---------------NAVBAR--------------?*/
-
-header{
-    background-color: black;
+    }
 }
 
 .navbar-brand{
     color: white !important;
 }
+
 .nav-link{
     color: white !important;
 }
@@ -65,7 +60,7 @@ header{
     background-color: rgb(255, 175, 0) ;
 }
 
-/*!--------------------------MAIN---------------------!*/
+/*!----------MAIN------------!*/
 
 .hero{
     width: 100%;
@@ -77,23 +72,20 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    h2{
+        width: 100%;
+        color: white;
+    }
 }
 
-.hero h2{
-    width: 100%S ;
-}
-
-.hero h2{
-    color: white;
-}
-
-.comienzo h1{
+.comienzo{
+    h1{
     margin-top: 5px;
     text-align: center;
-}
-
-.comienzo h5{
-    text-align: center;
+    }
+    h5{
+        text-align: center;
+    }
 }
 
 .mapa{
@@ -101,21 +93,19 @@ header{
     justify-content: center;
 }
 
-.servicios-1 h2{
+.servicios-1{
+    h2{
     margin-top: 30px;
-}
-
-.servicios-1 p{
+    }
+    p{
     font-size: 22px;
     text-align: center;
-}
-
-.servicios-1 span{
+    }
+    span{
     color: black;
     font-size: 40px;
+    }
 }
-
-
 
 .formulario{
     display: flex !important;
@@ -137,46 +127,35 @@ header{
     margin-top: 20px;
 }
 
+/*-------------CARDS Y OTROS---------*/
 
-/*?---------CARDS Y MAS--------------*/
-
-.destacados1 div{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.destacados1 h2{
+.destacados1{
+    h2{
     color: white;
     background-color: black;
     text-align: center;
     margin-top: 20px;
     padding: 5px;
-}
-
-.destacados1 article img{
-    width: 200px;
-    height: 200px;
-}
-
-
-
-.destacados1 article{
-    width: 252px;
-    height: 350px;
-    border: 1px solid black;
-    margin: 20px;
-    text-align: center;
-}
-
-.destacados1 article h3{
-    margin: 10px;
-}
-
-.destacados1 article a{
-    color: yellow;
-    background-color: black;
-    text-decoration: none;
+    }
+    div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    article{
+        img{
+        width: 200px;
+        height: 200px;
+        }
+        h3{
+        margin: 10px;
+        }
+        a{
+        color: yellow;
+        background-color: black;
+        text-decoration: none;
+        }
+    }
+    }
 }
 
 .carousel{
@@ -187,16 +166,17 @@ header{
 
 .carousel-item{
     max-height: 400px;
-}
-
-.carousel-item img{
+    img{
     max-width: 100%;
     height: 400px;
     object-fit: cover;
     object-position: center;
+    }
 }
 
-/**--------------CONTENEDOR-------**/
+
+/*-------------CONTENEDOR-------------*/
+
 .grid-contenedor{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -220,18 +200,14 @@ header{
 .grid-items{
     font-size: 30px;
     text-align: center;
-}
-
-.grid-items img{
+    img{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    }
 }
 
-
-
-/*?------------FOOTER------------------*/
-
+/*-------------FOOTER-----------------*/
 
 .separacion{
     border-top: solid 2px;
@@ -243,4 +219,3 @@ header{
 .textofoter{
     margin-top: 25px;
 }
-
