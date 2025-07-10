@@ -1,0 +1,37 @@
+.llamativo{
+    h1{
+        text-align: center;
+    }
+}
+
+header{
+    h1{
+    position: fixed;
+    text-align: center;
+    top: 0;
+    left: 5px;
+    font-size: 18px;
+    color: white;
+    }
+}
+
+.navbar-brand{
+    color: white !important;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+.navbar-toggler{
+    background-color: rgb(255, 175, 0)
+}
+
+.boton-navbar{
+    color: white;
+    border: 3px solid rgb(255, 175, 0);
+}
+
+.boton-navbar:hover{
+    background-color: rgb(255, 175, 0) ;
+}
