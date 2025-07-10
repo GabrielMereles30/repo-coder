@@ -6,6 +6,34 @@
   box-sizing: border-box;
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.orden {
+  display: grid;
+  min-height: 100vh;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas: "header" "main" "footer";
+}
+
+header {
+  grid-area: header;
+  padding: 20px;
+}
+
+main {
+  grid-area: auto;
+}
+
+footer {
+  grid-area: auto;
+  padding: 20px;
+}
+
 body {
   font-family: "Tagesschrift", system-ui;
 }
@@ -14,12 +42,6 @@ html {
   font-family: "Noto Sans", sans-serif;
   background-color: white;
   color: black;
-}
-
-.orden {
-  display: grid;
-  min-height: 100dvh;
-  grid-template-rows: auto 1fr auto;
 }
 
 header {
@@ -65,7 +87,7 @@ header h1 {
   height: 500px;
   text-align: center;
   color: white;
-  background-image: url(../images/Posible-fondo-inicio-2.jpg);
+  background-image: url(.../Images/posible-fondo-inicio-2);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -200,21 +222,36 @@ header h1 {
   object-fit: cover;
 }
 
-.separacion {
-  border-top: solid 2px;
-  width: 100%;
-}
-
-.footer {
-  margin-top: 80px;
-}
-
-.textofoter {
-  margin-top: 25px;
-}
-
 footer {
   background-color: black;
+}
+
+.grid-footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-items: center;
+}
+
+@media screen and (max-width: 995px) {
+  .destacados1 div {
+    flex-direction: column;
+  }
+}
+.hero {
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  color: white;
+  background-image: url(../images/posible-fondo-inicio-2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.hero h2 {
+  width: 100%;
+  color: white;
 }
 
 /*# sourceMappingURL=estilos.css.map */

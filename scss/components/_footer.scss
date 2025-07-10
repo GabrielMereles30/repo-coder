@@ -1,14 +1,10 @@
-.separacion{
-    border-top: solid 2px;
-    width: 100%;
-}
-.footer{
-    margin-top: 80px;
-}
-.textofoter{
-    margin-top: 25px;
-}
-
 footer{
     background-color: black;
+}
+
+.grid-footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
 }

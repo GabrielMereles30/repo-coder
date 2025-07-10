@@ -3,4 +3,20 @@
 @import "./components/header";
 @import "./components/main";
 @import "./components/footer";
-@import "./base/queries"
+@import "./base/queries";
+
+.hero{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    color: white;
+    background-image: url(../images/posible-fondo-inicio-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    h2{
+        width: 100%;
+        color: white;
+    }
+}
