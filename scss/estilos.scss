@@ -20,3 +20,23 @@
         color: white;
     }
 }
+
+
+
+/*------CARRUSEL-----*/
+
+.carousel-control-next, .carousel-control-prev{
+    width: auto;
+}
+
+.carousel-control-prev-icon{
+    background-image: url(../images/flecha-izquierda.png) !important;
+}
+
+.carousel-control-next-icon{
+    background-image: url(../images/flecha-derecha.png) !important;
+}
+
+.carousel{
+    width: 15%;
+}

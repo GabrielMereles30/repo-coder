@@ -27,13 +27,13 @@ header{
 }
 
 main{
-    grid-area:auto;
+    grid-area:main;
     
 }
 
 
 footer{
-    grid-area: auto;
+    grid-area:footer ;
     padding: 20px;
 }
 
@@ -55,3 +55,5 @@ html{
 header{
     background-color: black;
 }
+
+

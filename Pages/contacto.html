@@ -58,56 +58,40 @@
   </header>
 
   <main>
-    <form class="row formulario">
-  <div class="col-md-6">
-    <label for="inputEmail4" class="form-label">Email</label>
-    <input type="email" class="form-control" id="inputEmail4">
-  </div>
-  <div class="col-md-6">
-    <label for="inputPassword4" class="form-label">Nombre</label>
-    <input type="password" class="form-control" id="inputPassword4">
-  </div>
-  <div class="col-md-6">
-    <label for="inputAddress" class="form-label">Dirección</label>
-    <input type="text" class="form-control" id="inputAddress">
-  </div>
-  <div class="col-md-6">
-    <label for="inputAddress2" class="form-label">Dirección 2 (Opcional)</label>
-    <input type="text" class="form-control" id="inputAddress2">
-  </div>
-  <div class="col-md-6">
-    <label for="inputState" class="form-label">País</label>
-    <select id="inputState" class="form-select">
-      <option selected>Elige</option>
-      <option>Argentina</option>
-    </select>
-  </div>
-  <div class="col-md-6">
-    <label for="inputState" class="form-label">Provincia</label>
-    <select id="inputState" class="form-select">
-      <option selected>Elige</option>
-      <option>Mendoza</option>
-      <option>BS.AS</option>
-      <option>Tucuman</option>
-      <option>Misiones</option>
-      <option>Chaco</option>
-    </select>
-  </div>
-  <div class="col-md-2">
-    
-  </div>
-  <div class="col-12">
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" id="gridCheck">
-      <label class="form-check-label" for="gridCheck">
-        Recuérdame
-      </label>
+    <div class="container-contact100">
+    <div class="wrap-contact100">
+        <form class="contact100-form validate-form">
+            <span class="contact100-form-title">
+                Contáctanos
+            </span>
+
+            <div class="wrap-input100 validate-input" data-validate="Please enter your name">
+                <input class="input100" type="text" name="name" placeholder="Nombre Completo" required>
+                <span class="focus-input100"></span>
+            </div>
+
+            <div class="wrap-input100 validate-input" data-validate="Please enter email: e@a.x">
+                <input class="input100" type="text" name="email" placeholder="Email" required>
+                <span class="focus-input100"></span>
+            </div>
+
+            <div class="wrap-input100 validate-input" data-validate="Please enter your message">
+                <textarea class="input100" name="message" placeholder="Escribe un mensaje" required></textarea>
+                <span class="focus-input100"></span>
+            </div>
+
+            <div class="container-contact100-form-btn">
+                <button class="contact100-form-btn">
+                    Enviar
+                </button>
+            </div>
+        </form>
+
+        <div class="contact100-more">
+            Numero telefónico: <span class="contact100-more-highlight">261 123-4567</span>
+        </div>
     </div>
-  </div>
-  <div class="col-12 boton-form">
-    <button type="submit" class="btn btn-warning">Enviar</button>
-  </div>
-</form>
+</div>
   </main>
 
   <footer class="footer">
