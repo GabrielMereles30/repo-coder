@@ -449,7 +449,7 @@ header {
   background-color: black;
 }
 
-.desstacados1 h2 {
+.destacados1 h2 {
   color: white;
   background-color: black;
   text-align: center;
@@ -457,13 +457,13 @@ header {
   padding: 5px;
 }
 
-.desstacados1 div {
+.destacados1 div {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.desstacados1 div article {
+.destacados1 div article {
   width: 252px;
   height: 350px;
   border: 1px solid black;
@@ -471,16 +471,16 @@ header {
   text-align: center;
 }
 
-.desstacados1 div article img {
+.destacados1 div article img {
   width: 200px;
   height: 200px;
 }
 
-.desstacados1 div article h3 {
+.destacados1 div article h3 {
   margin: 10px;
 }
 
-.desstacados1 div article a {
+.destacados1 div article a {
   padding: 8px;
   color: yellow;
   background-color: black;
