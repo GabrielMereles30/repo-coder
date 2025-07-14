@@ -5,3 +5,13 @@
         }
     }
 }
+
+/*--NOTICIAS--*/
+
+@media screen and (max-width: 995px) {
+    .noticias-d{
+        div{
+            flex-direction: column;
+        }
+    }
+}
