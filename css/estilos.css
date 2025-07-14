@@ -487,6 +487,16 @@ header {
   text-decoration: none;
 }
 
+.horarios div {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.horarios article {
+  display: flex;
+  justify-content: center;
+}
+
 .llamativo h1 {
   text-align: center;
 }
