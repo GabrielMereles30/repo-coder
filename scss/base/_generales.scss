@@ -55,4 +55,35 @@ header{
     background-color: black;
 }
 
-
+.desstacados1 h2 {
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin-top: 20px;
+    padding: 5px;
+}
+.desstacados1 div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.desstacados1 div article {
+    width: 252px;
+    height: 350px;
+    border: 1px solid black;
+    margin: 20px;
+    text-align: center;
+}
+.desstacados1 div article img {
+    width: 200px;
+    height: 200px;
+}
+.desstacados1 div article h3 {
+    margin: 10px;
+}
+.desstacados1 div article a {
+    padding: 8px;
+    color: yellow;
+    background-color: black;
+    text-decoration: none;
+}
