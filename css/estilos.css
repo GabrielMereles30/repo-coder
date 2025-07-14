@@ -494,7 +494,6 @@ header h1 {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-
 .hero h2 {
   width: 100%;
   color: white;
@@ -504,47 +503,12 @@ header h1 {
   margin-top: 5px;
   text-align: center;
 }
-
 .comienzo h5 {
   text-align: center;
 }
 
-.destacados1 h2 {
-  color: white;
-  background-color: black;
-  text-align: center;
-  margin-top: 20px;
-  padding: 5px;
-}
-
-.destacados1 div {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.destacados1 div article {
-  width: 252px;
-  height: 350px;
-  border: 1px solid black;
-  margin: 20px;
-  text-align: center;
-}
-
-.destacados1 div article img {
-  width: 200px;
-  height: 200px;
-}
-
-.destacados1 article h3 {
-  margin: 10px;
-}
-
-.destacados1 div article a {
-  padding: 8px;
-  color: yellow;
-  background-color: black;
-  text-decoration: none;
+.span-nosotros {
+  font-family: "Tagesschrift", system-ui;
 }
 
 /*--------NOTICIAS-------*/
@@ -555,31 +519,39 @@ header h1 {
   margin-top: 20px;
   padding: 5px;
 }
-
 .noticias-d div {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.noticias-d div article {
+.desstacados1 h2 {
+  color: white;
+  background-color: black;
+  text-align: center;
+  margin-top: 20px;
+  padding: 5px;
+}
+.desstacados1 div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.desstacados1 div article {
   width: 252px;
   height: 350px;
   border: 1px solid black;
   margin: 20px;
   text-align: center;
 }
-
-.noticias-d div article img {
+.desstacados1 div article img {
   width: 200px;
   height: 200px;
 }
-
-.noticias-d div article h3 {
+.desstacados1 div article h3 {
   margin: 10px;
 }
-
-.noticias-d div article a {
+.desstacados1 div article a {
   padding: 8px;
   color: yellow;
   background-color: black;
@@ -587,6 +559,39 @@ header h1 {
 }
 
 /*---NOTICIAS---*/
+.noticias-d h2 {
+  color: white;
+  background-color: black;
+  text-align: center;
+  margin-top: 20px;
+  padding: 5px;
+}
+.noticias-d div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.noticias-d div article {
+  width: 252px;
+  height: 350px;
+  border: 1px solid black;
+  margin: 20px;
+  text-align: center;
+}
+.noticias-d div article img {
+  width: 200px;
+  height: 200px;
+}
+.noticias-d div article h3 {
+  margin: 10px;
+}
+.noticias-d div article a {
+  padding: 8px;
+  color: yellow;
+  background-color: black;
+  text-decoration: none;
+}
+
 .mapa {
   display: flex;
 }
@@ -594,16 +599,13 @@ header h1 {
 .servicios-1 ul li {
   margin-left: 30px;
 }
-
 .servicios-1 h2 {
   margin-top: 30px;
 }
-
 .servicios-1 p {
   font-size: 22px;
   text-align: center;
 }
-
 .servicios-1 span {
   color: black;
   font-size: 40px;
@@ -668,7 +670,6 @@ header h1 {
   font-size: 30px;
   text-align: center;
 }
-
 .grid-items img {
   width: 100%;
   height: 100%;
@@ -695,6 +696,12 @@ footer {
     flex-direction: column;
   }
 }
+/*--NOTICIAS--*/
+@media screen and (max-width: 708px) {
+  .noticias-d div {
+    flex-direction: column;
+  }
+}
 .hero {
   width: 100%;
   height: 500px;
@@ -706,7 +713,6 @@ footer {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-
 .hero h2 {
   width: 100%;
   color: white;
@@ -729,7 +735,5 @@ footer {
   width: 240px;
   margin: 0 auto 40px auto;
 }
-
-
 
 /*# sourceMappingURL=estilos.css.map */
