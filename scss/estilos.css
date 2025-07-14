@@ -415,7 +415,6 @@ textarea.input100 {
 }
 
 .orden {
-  display: grid;
   min-height: 100vh;
   grid-template-columns: 1fr;
   grid-template-rows: auto 1fr auto;
@@ -508,33 +507,48 @@ header h1 {
   text-align: center;
 }
 
-.destacados1 h2 {
+/*--------NOTICIAS-------*/
+.noticias-d h2 {
   color: white;
   background-color: black;
   text-align: center;
   margin-top: 20px;
   padding: 5px;
 }
-.destacados1 div {
+.noticias-d div {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.destacados1 div article {
+
+/*---NOTICIAS---*/
+.noticias-d h2 {
+  color: white;
+  background-color: black;
+  text-align: center;
+  margin-top: 20px;
+  padding: 5px;
+}
+.noticias-d div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.noticias-d div article {
   width: 252px;
   height: 350px;
   border: 1px solid black;
   margin: 20px;
   text-align: center;
 }
-.destacados1 div article img {
+.noticias-d div article img {
   width: 200px;
   height: 200px;
 }
-.destacados1 div article h3 {
+.noticias-d div article h3 {
   margin: 10px;
 }
-.destacados1 div article a {
+.noticias-d div article a {
   padding: 8px;
   color: yellow;
   background-color: black;
@@ -545,6 +559,9 @@ header h1 {
   display: flex;
 }
 
+.servicios-1 ul li {
+  margin-left: 30px;
+}
 .servicios-1 h2 {
   margin-top: 30px;
 }
